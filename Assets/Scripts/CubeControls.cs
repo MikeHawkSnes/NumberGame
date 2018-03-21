@@ -20,9 +20,7 @@ public class CubeControls : MonoBehaviour {
     {
         if (colided)
         {
-            transform.position = setInPlace;
-            Field.setNumber(cubeValue);
-            
+            transform.position = setInPlace;  
         }
             
     }
