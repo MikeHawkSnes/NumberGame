@@ -286,10 +286,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\changeText.cs" />
+    <Compile Include="Assets\Scripts\CountUp.cs" />
     <Compile Include="Assets\Scripts\CubeControls.cs" />
     <Compile Include="Assets\Scripts\DragCube.cs" />
     <Compile Include="Assets\Scripts\FieldManager.cs" />
-    <Compile Include="Assets\setInactive.cs" />
+    <Compile Include="Assets\Scripts\setInactive.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\Custom1.shader" />

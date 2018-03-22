@@ -182,7 +182,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cubeValue: 16
-  GM: {fileID: 1684425481699372, guid: db5c23885626d4b4baaf57f7c88d1cd5, type: 2}
+  GM: {fileID: 1670333324585186, guid: db5c23885626d4b4baaf57f7c88d1cd5, type: 2}
+  slotReference: {fileID: 0}
 --- !u!114 &114856572973397806
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -213,8 +214,8 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1058617338669318}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.2265625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4250427089074520}
@@ -223,6 +224,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.7, y: 0.78}
+  m_AnchoredPosition: {x: 7.1716347, y: -2.6503897}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}

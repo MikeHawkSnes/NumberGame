@@ -7,6 +7,7 @@ TagManager:
   - valueCube
   - Text
   - FieldSlot
+  - Score
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - 
   - valueCube
   - field
-  - 
+  - Score
   - 
   - 
   - 
@@ -52,4 +53,7 @@ TagManager:
     locked: 0
   - name: Field
     uniqueID: 1132175941
+    locked: 0
+  - name: Score
+    uniqueID: 349470427
     locked: 0

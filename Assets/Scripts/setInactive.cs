@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class setInactive : MonoBehaviour {
     [SerializeField]
-    private int slotLocation;
+    private int slotLocationX, slotLocationY;
     [SerializeField]
     private GameObject gameManager;
     private FieldManager fieldGM;
 
-	public void deactivateSquare(int value, bool isEnabled)
+	public void deactivateSquare(int value)
     {
-        GetComponent<Collider>().enabled = isEnabled;
+        GetComponent<Collider>().enabled = fieldGM.setNumber(value, slotLocationX, slotLocationY);
     }
     public void Start()
     {

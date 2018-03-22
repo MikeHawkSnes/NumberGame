@@ -7,17 +7,24 @@ public class changeText : MonoBehaviour {
     [SerializeField]
     private float movingMax, movingRate;
     private int timer;
+    private bool moving = true;
 
     private void moveEffect()
     {
         transform.Rotate(Vector3.forward * movingRate);
+    }
+    public void stopMovement()
+    {
+        moving = false;
+        transform.rotation = (Quaternion.identity);
     }
 
 	void Awake () {this.GetComponent<TextMesh>().text = GetComponentInParent<CubeControls>().getText();}
 
 	void Update ()
     {
-        moveEffect();
+        if(moving)
+            moveEffect();
         timer++;
         if(timer >= movingMax)
         {
